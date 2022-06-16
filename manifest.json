@@ -1,0 +1,11 @@
+{
+  "name": "Tab Jump!",
+  "description": "Chrome Extension to Jump Between Tabs Quickly!!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["scripting", "tabs"],
+  "action": {
+    "default_popup": "./html/tab-jump.html",
+    "default_icon": "./images/jumper.png"
+  }
+}
