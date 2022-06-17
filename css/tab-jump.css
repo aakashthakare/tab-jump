@@ -14,12 +14,17 @@ body {
 
 .tab-jump-button {
     width: 100%;
-    background: #789;
-    color: #fff ;
+    background: #56a;
+    color: white;
     text-align: left;
     padding: 2px;
-    margin : 2px;
+    margin: 2px;
     white-space: normal;
-    font-size: 14px;
-    border-radius: 5px;
+    font-size: 15px;
+    border-radius: 10px 0px 10px 0px;
+    height: 45px !important;
+}
+
+.tab-jump-button:hover {
+    background: #887;
 }
