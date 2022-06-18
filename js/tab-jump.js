@@ -9,6 +9,7 @@ function createTabJumpButton(tab) {
     var element = document.createElement("input");
     element.type = "button";
     element.value = tab.title;
+    element.title = tab.title;
     element.className = "tab-jump-button"
     element.onclick = function() {
     console.log(tab);

@@ -1,6 +1,7 @@
 body {
     height: 400px;
     width: 250px;
+    background-color: #ddd;
 }
 
 #tabs {
@@ -13,18 +14,22 @@ body {
 }
 
 .tab-jump-button {
-    width: 100%;
-    background: #56a;
+    width: 240px;
+    height: 35px;
+    background: #45a;
     color: white;
     text-align: left;
-    padding: 2px;
+    padding: 10px;
     margin: 2px;
-    white-space: normal;
     font-size: 15px;
-    border-radius: 10px 0px 10px 0px;
-    height: 45px !important;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    border-color: white;
+    border-width: thin;
 }
 
 .tab-jump-button:hover {
-    background: #887;
+    box-shadow: 1px 1px #56a;
 }
